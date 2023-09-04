@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> HELLO | REGISTRATION FORM </title>
+
+    <!-- CSS-LINK-SECTION  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT-AWESOME-CDN-LINKS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE-FONTS-LINK  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        
+        <div id="container">
+
+          <h1> Registration Form </h1>
+            <form action="" id="registrationForm">
+        
+              <div class="input-group">
+                <label for="full_name"> FULL NAME </label>
+                <input type="text" id = "userName" name = "userName" placeholder="Enter your name">
+                <!-- <i class="fa-solid fa-circle-check"></i> -->
+              </div>
+        
+              <div class="input-group">
+                <label for="phone_number"> PHONE NUMBER </label>
+                <input type="tel" id = "userPhoneNumber" name = "userPhoneNumber" placeholder="123 456 7890">
+                <!-- <i class="fa-solid fa-circle-check"></i> -->
+              </div>
+        
+              <div class="input-group">
+                <label for="email"> EMAIL </label>
+                <input type="email" id = "userEmail" name = "userEmail" placeholder="Enter Email">
+                <!-- <i class="fa-solid fa-circle-check"></i> -->
+              </div>   
+
+              <div class="input-group">
+                <label for="user_date"> DATE </label>
+                <input type="date" name="userDate" id="userDate">
+                <!-- <i class="fa-solid fa-circle-check"></i> -->
+              </div>
+        
+              <div class="input-group">
+                <label for="user_password"> PASSWORD </label>
+                <input type="password" name="userPassword" id="userPassword">
+                <!-- <i class="fa-solid fa-circle-check"></i> -->
+              </div>
+
+              <div class="input-group">
+                <label for="user_confirm_password"> CONFIRM PASSWORD </label>
+                <input type="password"  id="userConfirmPassword" name="userConfirmPassword">
+                <!-- <i class="fa-solid fa-circle-check"></i> -->
+              </div>
+        
+            <button type="button" id="submitButton"> SUBMIT </button>
+           
+          </form>
+    </main>
+
+    <script type="text/javascript" src="validation.js" ></script>
+ </body>
+</html>
+
+
